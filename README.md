@@ -12,7 +12,7 @@ This Python tool allows for the calculation of key stock market metrics, includi
 
 ### Prerequisites
 
-Ensure you have Python 3.7 or higher installed on your system. You can download Python from python.org.
+Ensure you have Python 3.7 or higher installed on your system.
 
 ### Installation
 Clone the repository to your local machine.

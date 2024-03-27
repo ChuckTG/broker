@@ -59,5 +59,5 @@ print(f"GBCE All Share Index: {calculate_gbce_all_share_index(stocks)}")
 To run tests use the following command:
 
 ```bash
-python -m unittest tests/test_broker.py
+python -m unittest test_broker.py
 ```

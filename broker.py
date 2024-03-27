@@ -80,7 +80,7 @@ class Stock:
             return None
         if self.stock_type == "Common":
             return self.last_dividend / price
-        elif self.type == "Preffered":
+        elif self.stock_type == "Preferred":
             return (self.fixed_dividend * self.par_value) / price
         else:
             return None

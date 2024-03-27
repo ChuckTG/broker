@@ -49,6 +49,16 @@ To calculate the GBCE All Share Index for a list of stocks:
 
 ```python
 from broker import Stock, calculate_gbce_all_share_index
+stocks = [
+            Stock('TEA', 'Common', 0, None, 100),
+            Stock('POP', 'Common', 8, None, 100),
+            Stock('ALE', 'Common', 23, None, 60),
+            Stock('GIN', 'Preferred', 8, 0.02, 100),
+            Stock('JOE', 'Common', 13, None, 250)
+        ]
+
+stocks[0].record_trade(100, 'buy', 105)
+stocks[1].record_trade(200, 'sell', 110)
 
 # Assuming stocks is a list of Stock instances
 print(f"GBCE All Share Index: {calculate_gbce_all_share_index(stocks)}")

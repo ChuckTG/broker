@@ -3,8 +3,6 @@ import math
 import datetime
 
 
-class Broker:
-    pass
 
 
 class Trade:
